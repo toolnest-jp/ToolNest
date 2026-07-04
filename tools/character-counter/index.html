@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>文字数カウント | ToolNest</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="container">
+<a class="back" href="../../index.html">← ToolNestへ戻る</a>
+<h1>文字数カウント</h1>
+<p class="lead">文章を入力するとリアルタイムで文字数を集計します。</p>
+
+<textarea id="text" placeholder="ここに文章を入力してください"></textarea>
+
+<div class="grid">
+<div class="card"><span>文字数</span><strong id="count">0</strong></div>
+<div class="card"><span>改行なし</span><strong id="noBreak">0</strong></div>
+<div class="card"><span>空白なし</span><strong id="noSpace">0</strong></div>
+<div class="card"><span>行数</span><strong id="lines">0</strong></div>
+</div>
+
+<button id="copy">入力内容をコピー</button>
+</main>
+<script src="script.js"></script>
+</body></html>
